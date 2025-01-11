@@ -100,7 +100,7 @@ function Todo() {
   return (
     <div>
       <div>
-        <Header />
+        {/* <Header /> */}
         <div className="min-h-screen bg-gradient-to-br from-blue-200 to-purple-200 flex items-center justify-center p-6">
           <div className="bg-white shadow-2xl rounded-lg w-full max-w-lg">
             <header className="bg-gradient-to-r from-blue-600 to-purple-600 text-white text-center py-6 rounded-t-lg">

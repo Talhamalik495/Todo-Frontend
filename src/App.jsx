@@ -17,10 +17,7 @@ function App() {
   let { user, setUser } = useContext(authContext);
   console.log("User=>", user);
 
-  let [input, setInput] = useState("");
-  let [todo, setTodo] = useState([]);
-  let [editTodo, setEditTodo] = useState("");
-  let [editText, setEditText] = useState("");
+ 
 
   return (
     <BrowserRouter>
